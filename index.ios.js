@@ -5,7 +5,8 @@ import orderRepository from './orders/repositories/OrderRepository';
 export default class shopify_mobile extends Component {
 
   state = {
-    totalOrderRevenue: 0
+    totalOrderRevenue: 0,
+    quantityOfAeroDynamicCottonKeyboards: 0
   }
 
   componentDidMount() {
@@ -15,6 +16,13 @@ export default class shopify_mobile extends Component {
                 totalOrderRevenue: response
             });
         });
+
+    orderRepository.getQuantityOfAerodynamicCottonKeyboards()
+        .then((response) => {
+          this.setState({
+              quantityOfAeroDynamicCottonKeyboards: response
+          });
+        });
   }
 
   render() {
@@ -22,6 +30,9 @@ export default class shopify_mobile extends Component {
       <View style={styles.container}>
         <Text style={styles.welcome}>
           {this.state.totalOrderRevenue}
+        </Text>
+        <Text style={styles.welcome}>
+          {this.state.quantityOfAeroDynamicCottonKeyboards}
         </Text>
         <Text style={styles.welcome}>
           Welcome to React Native!
