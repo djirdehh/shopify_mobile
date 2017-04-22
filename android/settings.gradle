@@ -1,0 +1,3 @@
+rootProject.name = 'shopify_mobile'
+
+include ':app'
