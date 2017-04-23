@@ -42,8 +42,7 @@ export default class shopify_mobile extends Component {
                 <Icon2 style={styles.secondIconValue} name="keyboard" size={0}/>
             </View>
             <View style={{alignSelf: 'flex-end', padding: 5}}>
-                <Text style={{fontSize: 12, color: '#FFF'}}>Made for &nbsp;
-                    <Icon style={{alignSelf: 'flex-end', color: '#FFF', fontSize: 17}} name="apple"></Icon>&nbsp;.</Text>
+                <Icon style={{alignSelf: 'flex-end', color: '#FFF', fontSize: 17}} name="apple"></Icon>
             </View>
         </View>
     );
@@ -59,6 +58,7 @@ const styles = StyleSheet.create({
         borderBottomColor: 'rgb(234, 76, 136)',
         borderLeftColor: 'rgb(234, 76, 136)',
         borderTopWidth: 20,
+        borderBottomWidth: 20,
         borderWidth: 2,
         backgroundColor: '#2c3338'
     },
