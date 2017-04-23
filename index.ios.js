@@ -41,6 +41,10 @@ export default class shopify_mobile extends Component {
                 <Text style={styles.secondValue}><Text style={{fontWeight: '600'}}>{this.state.quantityOfAeroDynamicCottonKeyboards}</Text></Text>
                 <Icon2 style={styles.secondIconValue} name="keyboard" size={0}/>
             </View>
+            <View style={{alignSelf: 'flex-end', padding: 5}}>
+                <Text style={{fontSize: 12, color: '#FFF'}}>Made for &nbsp;
+                    <Icon style={{alignSelf: 'flex-end', color: '#FFF', fontSize: 17}} name="apple"></Icon>&nbsp;.</Text>
+            </View>
         </View>
     );
   }
