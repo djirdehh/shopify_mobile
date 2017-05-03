@@ -35,10 +35,10 @@
 * If you don't have react-native installed run `npm install -g react-native-cli`
 
 ### iOS
-* `react-native run-ios` runs the app in development mode. Application should open if you have Xcode and accompanying emulator (or connect an Apple device).
+* `react-native run-ios` runs the app in development mode on port 8088. Application should open if you have Xcode and accompanying emulator (or connect an Apple device).
 
 ### Android
-* `react-native run-android` runs the app in development mode. Make sure you have an Android emulator running prior to running script (or connect an Android device).
+* `react-native run-android` runs the app in development mode on port 8088. Make sure you have an Android emulator running prior to running script (or connect an Android device).
 
 <p>
 Head over to <a href="https://facebook.github.io/react-native/">react-native</a> to see a list of things you can do.
