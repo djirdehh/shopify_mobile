@@ -19,13 +19,11 @@
 
 ## iOS Preview
 <div align="center">
-  iOS
   <img src="https://media.giphy.com/media/JCkHUq6TyFHbO/giphy.gif"/>
 </div>
 
 ## Android Preview
 <div align="center">
-  Android
   <img src="https://media.giphy.com/media/13TbAFE8UpjefK/giphy.gif"/>
 </div>
 
