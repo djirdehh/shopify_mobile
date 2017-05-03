@@ -15,6 +15,8 @@
 </div>
 
 ## Features
+* 🔩 <strong>Simple: </strong> Data fetched with the simplified HTTP request client - [request-promise](https://github.com/request/request-promise)
+
 * 📱 <strong>iOS | Android: </strong> Made both iOS and Android compatible with [React Native](https://github.com/facebook/react-native)
 
 ## iOS Preview
